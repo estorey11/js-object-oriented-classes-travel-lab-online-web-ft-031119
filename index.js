@@ -11,3 +11,9 @@ class Driver {
     return parseInt(( endDate - this.joinDate ) / ( 365 * 24 * 60 * 60 * 1000 ));
   }
 }
+
+class Route {
+  
+  constructor()
+  
+}
