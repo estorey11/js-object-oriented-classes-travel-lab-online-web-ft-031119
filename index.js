@@ -8,6 +8,6 @@ class Driver {
   
   yearsExperienceFromBeginningOf(year){
     const endDate = new Date( year, 1, 1 );
-    return ( endDate - this.startDate ) / ( 365 * 24 * 60 * 60 * 1000 );
+    return parseInt(( endDate - this.startDate ) / ( 365 * 24 * 60 * 60 * 1000 ));
   }
 }
