@@ -37,6 +37,7 @@ class Route {
   blocksTravelled(){
     const vDistance=Math.abs(this.beginningLocation.vertical-this.endingLocation.vertical)
     const hDistance=Math.abs(this.avenueToInteger(this.beginningLocation.horizontal)-this.avenueToInteger(this.endingLocation.horizontal))
+    return vDistance+hDistance
   }
   
 }
