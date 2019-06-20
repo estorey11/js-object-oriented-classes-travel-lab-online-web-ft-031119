@@ -30,9 +30,13 @@ class Route {
     this.endingLocation=endingLocation
   }
   
+  avenueToInteger( avenue ) {
+    return eastWest.indexOf( avenue );
+  }
+  
   blocksTravelled(){
     const vDistance=Math.abs(this.beginningLocation.vertical-this.endingLocation.vertical)
-    
+    const hDistance=Math.abs(this.beginningLocation.horizontal)
   }
   
 }
