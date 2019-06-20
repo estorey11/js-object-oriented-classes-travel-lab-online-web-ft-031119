@@ -31,7 +31,7 @@ class Route {
   }
   
   blocksTravelled(){
-    
+    const vDistance=
   }
   
 }
