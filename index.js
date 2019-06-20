@@ -20,7 +20,8 @@ class Route {
   }
   
   blocksTravelled(){
-    let eastWest = [
+    
+    const eastWest = [
       '1st Avenue',
       '2nd Avenue',
       '3rd Avenue',
@@ -29,6 +30,8 @@ class Route {
       'Madison Avenue',
       '5th Avenue'
     ];
+    
+    
   }
   
 }
