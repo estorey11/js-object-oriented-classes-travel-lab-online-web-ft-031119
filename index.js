@@ -2,7 +2,7 @@ class Driver {
   
   constructor (name, joinDate) {
     this.name=name
-    this.joinDate=new Date(this.joinDate)
+    this.joinDate=new Date(joinDate)
   }
   
   
