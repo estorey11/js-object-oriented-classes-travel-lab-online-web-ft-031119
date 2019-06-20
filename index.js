@@ -40,4 +40,8 @@ class Route {
     return vDistance+hDistance
   }
   
+  estimatedTime(){
+    
+  }
+  
 }
