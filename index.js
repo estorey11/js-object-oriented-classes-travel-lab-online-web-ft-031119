@@ -31,7 +31,7 @@ class Route {
   }
   
   blocksTravelled(){
-    const vDistance=
+    const vDistance=Math.abs(this.beginningLocation.)
   }
   
 }
